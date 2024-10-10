@@ -11,5 +11,5 @@ ul {
   transition: transform 100ms ease-in-out;
 }
 .gallery-image:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
