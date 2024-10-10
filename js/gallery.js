@@ -87,9 +87,9 @@ function createMarkupImg(arr) {
     .join("");
 }
 
-listGallery.addEventListener("click", handleClick);
+listGallery.addEventListener("click", clickOnPicture);
 
-function handleClick(event) {
+function clickOnPicture(event) {
   event.preventDefault();
   if (event.target === event.currentTarget) {
     return;
