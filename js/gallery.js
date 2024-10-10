@@ -94,10 +94,8 @@ function handleClick(event) {
   if (event.target === event.currentTarget) {
     return;
   }
-  console.log(`Посилання на фото: ${event.target.currentSrc}`);
   const currentImgLink = event.target.closest(".gallery-link").href;
   const img = images.find((img) => img.original === currentImgLink);
-  console.log(img);
 
   const instance = basicLightbox.create(`
     <div class="modal">
